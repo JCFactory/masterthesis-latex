@@ -3,23 +3,10 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \ac {esarc} as an example for big data architecture cf.\autocite {zimmermann} pp.133\relax }}{6}{figure.caption.6}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces \ac {esarc} business and information reference architecture cf.\autocite {zimmermann} pp.134\relax }}{7}{figure.caption.7}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Example software architecture cf.\autocite {talukder} pp.260\relax }}{8}{figure.caption.17}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Virtual patient software architecture cf.\autocite {zini} p.3\relax }}{15}{figure.caption.32}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture diagram of developed system\relax }}{17}{figure.caption.38}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Angular Frontend (top page), chat UI and diagrams of measured values\relax }}{18}{figure.caption.39}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Angular Frontend (bottom page), map to show the nearest doctors\relax }}{19}{figure.caption.40}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Dialog diagram: definition of hypertonia\relax }}{20}{figure.caption.43}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Dialog diagram: curses of hypertonia\relax }}{21}{figure.caption.44}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Dialog diagram: blood pressure measurement\relax }}{22}{figure.caption.45}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Dialog diagram: measurement tutorial\relax }}{23}{figure.caption.46}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Watson Assistant dialog\relax }}{24}{figure.caption.47}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Watson Assistant intents\relax }}{24}{figure.caption.48}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Watson Assistant entitities\relax }}{25}{figure.caption.49}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Outlook: Architecture with Flask, Angular and Watson Assistant\relax }}{31}{figure.caption.55}% 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
