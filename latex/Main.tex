@@ -34,6 +34,10 @@ What is important, the developed model is only a reference model....
 
 \subsection{\ac{IARC}}
 
+The \ac{iarc} is a association with the aim to raise the development within cancer treatment and research. It was formed by the \ac{who} and has its main location in France. Besides, it provides a large library of cancerogens for users.
+
+\footnote{\cite{ham10000}}
+
 \section{Current algorithms, solutions to predict metastasis}
 
 \section{Overview: Apps to predict metastasis}
@@ -138,6 +142,10 @@ In the given figure, a vertical letter shows the initially planned goals and fea
 
 \section{Data Research}
 \subsection{Kaggle dataset}
+For training and developing the neural network, a basic Kaggle dataset was used \footnote{\cite{kaggle_dataset}}. It contains 3600 pictures with the format 224x244 px. These 3600 files are divided into benign and malignant skin cancers. 
+For training, the neural network has only to learn how to distinguish good from bad tumors and then set a warning. 
+The dataset did not contain a basic test set which is not bad because for testing, the data could be simply annonymized by removing the labels.
+
 \section{\ac{CRISP-DM}: Model Planning and Learning}
 \section{Testing}
 \section{Results} 
