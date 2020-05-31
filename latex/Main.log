@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  15 MAY 2020 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  31 MAY 2020 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2215,7 +2215,29 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(./Main.aux)
+(./Main.aux
+
+LaTeX Warning: Label `verticallatter' multiply defined.
+
+
+LaTeX Warning: Label `verticallatter' multiply defined.
+
+
+LaTeX Warning: Label `verticallatter' multiply defined.
+
+
+LaTeX Warning: Label `verticallatter' multiply defined.
+
+
+LaTeX Warning: Label `verticallatter' multiply defined.
+
+
+LaTeX Warning: Label `verticallatter' multiply defined.
+
+
+LaTeX Warning: Label `verticallatter' multiply defined.
+
+)
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 3.
@@ -2448,13 +2470,13 @@ File: ot1txtt.fd 2000/12/15 v3.1
 )
 (./Titelseite.tex
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <12> not available
-(Font)              Font shape `OT1/txss/b/n' tried instead on input line 15.
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 15.
+(Font)              scaled to size 11.39996pt on input line 12.
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/txss/b/n' tried instead on input line 15.
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 12.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 15.
+(Font)              scaled to size 13.67995pt on input line 12.
  [1
 Non-PDF special ignored!
 <special> header=pstricks.pro
@@ -2486,30 +2508,31 @@ Non-PDF special ignored!
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 38.
+(Font)              scaled to size 23.63593pt on input line 37.
 LaTeX Font Info:    Font shape `OT1/txss/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/txss/b/n' tried instead on input line 38.
+(Font)              Font shape `OT1/txss/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/txss/b/n' will be
-(Font)              scaled to size 23.63593pt on input line 38.
+(Font)              scaled to size 23.63593pt on input line 37.
 
 (./Main.toc
-Package acronym Info: Label `acro:CRISP-DM' newly defined as it shall be overri
-dden
-although it is yet undefined on input line 21.
-
-
-Package acronym Warning: Acronym `CRISP-DM' is not defined on input line 21.
-
-
-Package acronym Warning: Acronym `CRISP-DM' is not defined on input line 21.
-
 LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 27.
+(Font)              scaled to size 11.39996pt on input line 28.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[1])
+[1]
+Package acronym Info: Label `acro:CRISP-DM' newly defined as it shall be overri
+dden
+although it is yet undefined on input line 29.
+
+
+Package acronym Warning: Acronym `CRISP-DM' is not defined on input line 29.
+
+
+Package acronym Warning: Acronym `CRISP-DM' is not defined on input line 29.
+
+)
 \tf@toc=\write6
 \openout6 = `Main.toc'.
 
@@ -2517,7 +2540,10 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[2] (./Main.lof)
+[2] (./Main.lof
+Package acronym Info: Label `acro:cfo' newly defined as it shall be overridden
+although it is yet undefined on input line 13.
+)
 \tf@lof=\write7
 \openout7 = `Main.lof'.
 
@@ -2558,6 +2584,10 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 6.64998pt on input line 39.
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 4.74998pt on input line 39.
+LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <10> not available
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 39.
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 39.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
@@ -2574,8 +2604,73 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 ]
 chapter 5.
+<images/verticallatter.jpg, id=159, 4047.12pt x 3035.34pt>
+File: images/verticallatter.jpg Graphic file (type jpg)
+<use images/verticallatter.jpg>
+Package pdftex.def Info: images/verticallatter.jpg  used on input line 62.
+(pdftex.def)             Requested size: 426.79141pt x 320.08641pt.
 
-Package acronym Warning: Acronym `CRISP-DM' is not defined on input line 61.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/howmightwe.jpg, id=160, 4047.12pt x 3035.34pt>
+File: images/howmightwe.jpg Graphic file (type jpg)
+<use images/howmightwe.jpg>
+Package pdftex.def Info: images/howmightwe.jpg  used on input line 73.
+(pdftex.def)             Requested size: 426.79141pt x 320.08641pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/stakeholdermap.jpg, id=161, 4047.12pt x 3035.34pt>
+File: images/stakeholdermap.jpg Graphic file (type jpg)
+<use images/stakeholdermap.jpg>
+Package pdftex.def Info: images/stakeholdermap.jpg  used on input line 82.
+(pdftex.def)             Requested size: 426.79141pt x 320.08641pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/empathymap_radiologist.jpg, id=162, 4047.12pt x 3035.34pt>
+File: images/empathymap_radiologist.jpg Graphic file (type jpg)
+<use images/empathymap_radiologist.jpg>
+Package pdftex.def Info: images/empathymap_radiologist.jpg  used on input line 
+91.
+(pdftex.def)             Requested size: 426.79141pt x 320.08641pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/empathymap_patient.jpg, id=163, 4047.12pt x 3035.34pt>
+File: images/empathymap_patient.jpg Graphic file (type jpg)
+<use images/empathymap_patient.jpg>
+Package pdftex.def Info: images/empathymap_patient.jpg  used on input line 98.
+(pdftex.def)             Requested size: 426.79141pt x 320.08641pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/empathymap_cfo.jpg, id=164, 4047.12pt x 3035.34pt>
+File: images/empathymap_cfo.jpg Graphic file (type jpg)
+<use images/empathymap_cfo.jpg>
+Package pdftex.def Info: images/empathymap_cfo.jpg  used on input line 105.
+(pdftex.def)             Requested size: 426.79141pt x 320.08641pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/hills.jpg, id=167, 4047.12pt x 3035.34pt>
+File: images/hills.jpg Graphic file (type jpg)
+<use images/hills.jpg>
+Package pdftex.def Info: images/hills.jpg  used on input line 115.
+(pdftex.def)             Requested size: 426.79141pt x 320.08641pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/userjourney.jpg, id=168, 4047.12pt x 3035.34pt>
+File: images/userjourney.jpg Graphic file (type jpg)
+<use images/userjourney.jpg>
+Package pdftex.def Info: images/userjourney.jpg  used on input line 124.
+(pdftex.def)             Requested size: 426.79141pt x 320.08641pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package acronym Warning: Acronym `CRISP-DM' is not defined on input line 139.
 
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
@@ -2584,12 +2679,35 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 [6
 
 ]
+Overfull \vbox (1.26591pt too high) has occurred while \output is active []
+
+
+[7 <./images/verticallatter.jpg>]
+Overfull \vbox (313.80653pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (1.26591pt too high) has occurred while \output is active []
+
+
+[8 <./images/howmightwe.jpg>]
+Overfull \vbox (1.26591pt too high) has occurred while \output is active []
+
+
+[9 <./images/stakeholdermap.jpg> <./images/empathymap_radiologist.jpg>]
+Overfull \vbox (1.26591pt too high) has occurred while \output is active []
+
+
+[10 <./images/empathymap_patient.jpg> <./images/empathymap_cfo.jpg>]
+Overfull \vbox (1.26591pt too high) has occurred while \output is active []
+
+
+[11 <./images/hills.jpg> <./images/userjourney.jpg>]
 chapter 6.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[7
+[12
 
 ]
 chapter 7.
@@ -2597,39 +2715,27 @@ chapter 7.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[8
+[13
 
 ]
 chapter 8.
-(./Abkuerzung.tex
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 \end{acronym}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
+(./Abkuerzung.tex)
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[9
+[14
 
 ]
 chapter without number
 LaTeX Font Info:    Font shape `OT1/txss/m/it' in size <12> not available
-(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 77.
-LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 77.
-LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
-(Font)              scaled to size 11.39996pt on input line 77.
+(Font)              Font shape `OT1/txss/m/sl' tried instead on input line 155.
 
-Overfull \hbox (15.85764pt too wide) in paragraph at lines 77--77
+LaTeX Font Info:    Font shape `OT1/txss/m/sl' will be
+(Font)              scaled to size 11.39996pt on input line 155.
+LaTeX Font Info:    Font shape `OT1/txss/m/sc' will be
+(Font)              scaled to size 11.39996pt on input line 155.
+
+Overfull \hbox (15.85764pt too wide) in paragraph at lines 155--155
 \OT1/txtt/m/n/12 towardsdatascience . com / introduction -[] to -[] genetic -[]
  algorithms -[] including -[]
  []
@@ -2638,7 +2744,7 @@ Overfull \hbox (15.85764pt too wide) in paragraph at lines 77--77
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[10
+[15
 
 ]
 chapter 9.
@@ -2662,7 +2768,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[11
+[16
 
 ]
 chapter 10.
@@ -2670,19 +2776,19 @@ chapter 10.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[12
+[17
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please rerun LaTeX.
@@ -2691,16 +2797,16 @@ Package biblatex Warning: Please rerun LaTeX.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 47662 strings out of 492616
- 901229 string characters out of 6129480
- 1482656 words of memory out of 5000000
- 50838 multiletter control sequences out of 15000+600000
- 576706 words of font info for 125 fonts, out of 8000000 for 9000
+ 47770 strings out of 492616
+ 903516 string characters out of 6129480
+ 1485656 words of memory out of 5000000
+ 50905 multiletter control sequences out of 15000+600000
+ 578889 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,11n,89p,9100b,3465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,11n,89p,9100b,3473s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2019
@@ -2708,10 +2814,10 @@ ve/2019/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2019
 dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
 e1/urw/times/utmr8a.pfb>
-Output written on Main.pdf (15 pages, 65585 bytes).
+Output written on Main.pdf (20 pages, 17985158 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 253 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 269 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 398 PDF objects out of 1000 (max. 8388607)
+ 357 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 373 words of extra memory for PDF output out of 10000 (max. 10000000)
 
