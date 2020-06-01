@@ -4,12 +4,12 @@
 \input{Titelseite}
 \chapter{Abstract}\label{abstract}
 
-This scientific article focusses on the development of a chatbot and the analysis of blood pressure measurements.
+This scientific article focusses on the development of a neural network to detect tumors and to prevent skin cancer from recurring.
 The main purpose of this scientific article is to develop...
 This can lead to...
-What is more, .... 
-The first business case is that...
-Second,. 
+What is more, the mobile app should connect both patients and healthcare practitioners by digitalizing all measured data and saving them centrally on a secured database. 
+The first business case is that patients are frequently reminded of going to a control appointment. 
+Second, by using their smartphone's hardware, especially the camera can be used to take a photo of potential skin cancers. 
 Furthermore, ...
 Third,...
 Fourth,...
@@ -18,11 +18,17 @@ Last, ...
 \chapter{Introduction}\label{introduction}
 
 \section{Problem statement}
+
+One of the most popular disease in our modern society is cancer. Many people die because of the consequences of tumors, evolving in their bodies and capturing nearly all of their good, healthy cells. The cause of tumors is the mutation of cells into 'bad' cells which clone themselves uncontrolled and irregularly. This makes it very hard to diagnose and prevent new tumors. Sometimes, even experts cannot diagnose precisely, e.g. in case of malignant tumors which are not delimited in the \ac{mri} pictures but tend to proliferate in an unknown degree. Another problem is the point of time the diagnosis is made. Since many people who do not suffer from any chronic disease tend to go to the doctor infrequently, the tumor is be detected too late. What is more, most biopsies take up to multiple days which is a long time.
+
 According to....
 Another problem are 
 All of these use cases can be automated and implemented by an application....
 
 \section{Aim and scope of this work}
+
+Given the above explained problems, the goals are to improve diagnostic and treatment of tumor patients by developing a model which predicts tumor metastasis and recurrence. Moreover, the system shall help doctors to quickly identify a patient whose cells are mutating so that he can intervene and treat the patient at the right time. Furthermore, the information process shall be improved by setting up a mobile and web application which keeps the patients up to date and serves as a communication base for healthcare providers.
+
 %describe aim
 The first aim of this scientific work is to develop a solution ...
 %describe scope
@@ -36,9 +42,82 @@ What is important, the developed model is only a reference model....
 
 The \ac{iarc} is a association with the aim to raise the development within cancer treatment and research. It was formed by the \ac{who} and has its main location in France. Besides, it provides a large library of cancerogens for users.
 
+\subsection{HAM 10000}
+Dermatoscopy TBD \ac{ham10000}
 \footnote{\cite{ham10000}}
 
-\section{Current algorithms, solutions to predict metastasis}
+\subsection{\ac{canscreen5}}
+
+The \ac{iarc} provides many projects based on different data sources. One large project is the \ac{canscreen}\footnote{\cite{iarc_canscreen5_project}} which collects all information on several cancer screening programmes across the globe. Thereby, the main goals are quality improvement and effective programme evaluation of cancer therapies. There are three types of cancer (breast, cervical and colorectal cancer) which are examined precisely. Besides, an overall graphic explains the distribution of cancer types across the worldwide population. Furthermore, the \ac{canscreen5} project provides analysis tools to be able to see the distribution of for example breast cancer in european countries.  
+
+\section{Different types of skin tumors}
+
+'The skin is made of a variety of cells, many of which are in constant motion. Round basal cells below the surface flatten as they rise to replace dead, flaking squamous cells on the surface. Melanocytes tan the skin in the sunlight, and Merkel cells give skin its ability to sense touch. When these cells become damaged, they may develop into skin cancer.' \footnote{\cite{skin_cancer_types}} 
+
+\begin{center}
+ \begin{tabular}{|| c | c | c ||} 
+ \hline
+Tumor Name & Description & Benign/Malignant \\ [0.5ex] 
+\hline\hline
+Basal Cell Carcinoma & tbd & tbd \\
+\hline
+Recurrent Basal Cell Carcinoma & tbd & tbd \\
+ \hline
+ Squamous Cell Carcinoma & tbd & tbd \\
+ \hline
+Melanoma & tbd & tbd \\
+ \hline
+ Karposi sarcoma (Rare Skin cancer) & tbd & tbd \\
+ \hline
+  Actinic keradosis (Rare Skin cancer) & tbd & tbd \\
+\hline
+Lymphoma of the skin (Rare Skin cancer) & tbd & tbd \\
+\hline
+ Keratoacanthoma (Rare Skin cancer) & tbd & tbd \\
+\hline
+ Merkel Cell Carcinoma & tbd & tbd \\
+\end{tabular}
+\end{center}
+
+
+
+As described by \ac{ndr} \footnote{\cite{ndr_lymphom}}, malignant skin lymphoma are caused by our immunesystem cells (also knows as lymphocytes). In such case, the lymphocytes are collected beneath the skin, grow uncontrolled and cause lymphomes. The reason for the mutation and why these cells cause skin lymphomes is unknown.
+
+\subsection{Current diagnosis and therapy methods}
+
+When assuming skin lymphoma, doctors often examine the patient's blood or use X-ray and ultrasound to detect all tumor cells. 
+After recognizing all malignant cells, there are several therapy methods, such as cortisone ointment, phototherapy, extracorporeal photopheresis, X-rays, antibody therapy, chemotherapy and symptomatic therapy.
+
+Given these numerous therapy methods, it is very important to diagnose the 'right' disease. Often, lymphoma tend to mutate and hide themselves as psoriasis and are treated like them for many years. But suddenly, the doctor notices that it is not a usual psoriasis and the lymphoma can immediately lead to the patient's death. For that reason, the diagnosis process should be repeated like a cycle and should include all different data sources (e.g. not only image recognition but also blood analysis) \footnote{\cite{ndr_lymphom}}. 
+
+\subsection{Stages of skin cancer}
+
+When diagnosing tumors, a often used scale is the \ac{tnm} grading which describes the current stage of the tumor. 
+Tumor (t) describes the tumor's size, location and how deep it has grown into the skin. Node (n) indicates whether or not the cancer cells have spread to nearby lymph nodes or the channels connecting the lymph nodes. Metastasis (m) refers to whether the cancer cells have spread to distant organs.
+
+\begin{center}
+ \begin{tabular}{|| c | c ||} 
+ \hline
+Stage & Tumor development \\ [0.5ex] 
+\hline\hline
+0 & 'Carcinoma in situ', tumor is only present in the epidermis (upper layer of the skin) and has not spread deeper to the dermis \\
+\hline
+1 & cancer is less than 2 centimeters, about 4-5 of an inch across, has not spread to nearby lymph nodes or organs, and has one or fewer high-risk features  \\
+\hline
+2 & cancer is larger than 2 centimeters across, and has not spread to nearby organs or lymph nodes, or a tumor of any size with 2 or more high-risk features \\
+\hline
+3 & cancer has spread into facial bones or 1 nearby lymph node, but not to other organs  \\
+\hline
+4 & cancer can be any size and has spread (metastasized) to 1 or more lymph nodes which are larger than 3 cm and may have spread to bones or other organs in the body \\
+ \hline
+\end{tabular}
+\end{center}
+
+According the the detected stage, the therapy is personalized. For instance, if tumors are in stage 1, a more simple treatment is administered whereas tumors in stage 4 have to be treated using more aggressive therapies, such as chemotherapies.   
+
+Besides, there are additional criteria which can determine a higher risk for recurrence or spreading. These are for example a thickness greater than 2mm, invasion into the lower dermis or tiny nerves in the skin or a location on the ear or on a hair-bearing lip\footnote{\cite{skin_cancer_types}}.
+
+\section{Current algorithms, solutions to recognize skin tumors and to predict metastasis}
 
 \section{Overview: Apps to predict metastasis}
 
@@ -65,7 +144,8 @@ In the following sections there are explained various kinds of design strategies
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=1\textwidth]{images/verticallatter.jpg}
+	\includegraphics[width=10cm,height=10cm,keepaspectratio]{images/verticallatter.jpg}
+	%\includegraphics[width=1\textwidth]{images/verticallatter.jpg}
 	\caption{Vertical latter which defines the development goals over time}
 	\label{verticallatter}
 \end{figure}
@@ -146,7 +226,7 @@ For training and developing the neural network, a basic Kaggle dataset was used 
 For training, the neural network has only to learn how to distinguish good from bad tumors and then set a warning. 
 The dataset did not contain a basic test set which is not bad because for testing, the data could be simply annonymized by removing the labels.
 
-\section{\ac{CRISP-DM}: Model Planning and Learning}
+\section{\ac{crisp-dm}: Model Planning and Learning}
 \section{Testing}
 \section{Results} 
 
