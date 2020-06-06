@@ -44,6 +44,28 @@
       \verb http://gco.iarc.fr/tomorrow/home
       \endverb
     \endentry
+    \entry{iarc_canscreen5_project}{misc}{}
+      \field{sortinit}{c}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{note}{Library Catalog: canscreen5.iarc.fr}
+      \field{title}{canscreen5}
+      \field{urlday}{24}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/jf/Zotero/storage/VSHEV9V8/index.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://canscreen5.iarc.fr
+      \endverb
+      \verb{url}
+      \verb https://canscreen5.iarc.fr
+      \endverb
+    \endentry
     \entry{design_kit}{misc}{}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
@@ -199,6 +221,62 @@
       \endverb
       \verb{url}
       \verb https://kaggle.com/fanconic/skin-cancer-malignant-vs-benign
+      \endverb
+    \endentry
+    \entry{ham10000}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=f4c4ddb3f515e910b4e84077d32c8bcc}{%
+           family={Tschandl},
+           familyi={T\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=909d6d2380bcc660f994f73bea02d751}{%
+           family={Rosendahl},
+           familyi={R\bibinitperiod},
+           given={Cliff},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eed1e56a6dc94fc81cfa0da8967a5ac4}{%
+           family={Kittler},
+           familyi={K\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{54dd54ed498a10b4a63c7bd482674626}
+      \strng{fullhash}{54dd54ed498a10b4a63c7bd482674626}
+      \strng{bibnamehash}{54dd54ed498a10b4a63c7bd482674626}
+      \strng{authorbibnamehash}{54dd54ed498a10b4a63c7bd482674626}
+      \strng{authornamehash}{54dd54ed498a10b4a63c7bd482674626}
+      \strng{authorfullhash}{54dd54ed498a10b4a63c7bd482674626}
+      \field{sortinit}{T}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2052-4463}
+      \field{journaltitle}{Scientific Data}
+      \field{month}{8}
+      \field{title}{The {HAM10000} dataset, a large collection of multi-source dermatoscopic images of common pigmented skin lesions}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2020}
+      \field{volume}{5}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1038/sdata.2018.161
+      \endverb
+      \verb{file}
+      \verb PubMed Central Full Text PDF:/Users/jf/Zotero/storage/RXQCMLCU/Tschandl et al. - 2018 - The HAM10000 dataset, a large collection of multi-.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6091241/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6091241/
       \endverb
     \endentry
     \entry{skin_cancer_types}{misc}{}
