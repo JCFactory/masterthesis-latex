@@ -37,6 +37,10 @@ The \ac{iarc} is a association with the aim to raise the development within canc
 
 \footnote{\cite{iarc_world_cancer_report}}
 
+\subsection{Ultrawideband, Stable Normal and Cancer Skin Tissue Phantoms for Millimeter-Wave Skin Cancer Imaging}
+
+\footnote{\cite{8344452}}
+
 \subsection{Identification of 12 cancer types through genome deep learning}
 
 Sun et al. constructed '14 models including 12 specific models, a total-specific model and a mixture model for cancer risk identification using a \ac{dnn} within a TensorFlow23 framework. We used an exponential decay method to optimize the learning rate, L2 regularization24 to minimize overfitting, and a sliding average model to increase the robustness of the model. For each specific model meant to identify a certain type of cancer, the detection accuracy, sensitivity and specificity are more than 97\%, 98\% and 97\%, respectively. The mixture model, which is able to distinguish all 12 types of cancer, exhibited comparable performance. The total-specific and mixture models also demonstrated comparable performance. Using our model, cancerous tissue can be identified more conveniently and timely, thus providing an opportunity for earlier treatment. This approach to genome deep learning offers a new direction for disease diagnosis while providing a new method to predict traits based on genomic information.'\footnote{\cite{sun_identification}}
@@ -149,84 +153,78 @@ Here all used algorithms and patterns shall be explained
 
 In the following sections there are explained various kinds of design strategies to find out the real needs for the application being developed. These are adopted to two basic frameworks, the IBM Enterprise Design Thinking framework \footnote{\cite{ibm_edt}} as well as the Design Kit, proposed by IDEO.ORG \footnote{\cite{design_kit}}. Some of the strategies are modified a little bit and were implemented by a single person which can affect the objectivity and diversity of the methods. Nevertheless, they generated a highly usable product and many ideas for future development cycles. 
 
-\subsection{Vertical latter}
+%\subsection{Vertical latter}
 
-\begin{figure}[h]
-\includegraphics[scale=0.55, natwidth=1024, natheight=200]{images/verticallatter.jpg}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{images/verticallatter.jpg}
-	\caption{Vertical latter which defines the development goals over time}
-	\label{verticallatter}
-\end{figure}
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{images/verticallatter.jpg}
+%	\caption{Vertical latter which defines the development goals over time}
+%	\label{verticallatter}
+%\end{figure}
 
 In the given figure, a vertical letter shows the initially planned goals and features of the app. The X-Axis shows the time steps whereas the Y-Axis explains the complexity of tasks. The higher on task is mentioned, the more complex it is to realize.
 
-\subsection{How might we?}
-
-\begin{figure}[h]
-\includegraphics[scale=0.55, natwidth=1024, natheight=200]{images/howmightwe.jpg}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{images/howmightwe.jpg}
-	\caption{"How might we?" - table to define the process of development}
-	\label{howmightwe}
-\end{figure}
+%\subsection{How might we?}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{images/howmightwe.jpg}
+%	\caption{"How might we?" - table to define the process of development}
+%	\label{howmightwe}
+%\end{figure}
 
 \subsection{Stakeholder Map}
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{images/stakeholdermap.jpg}
-	\caption{Stakeholder Map which shows all groups of stakeholders as well as their relationships}
-	\label{verticallatter}
-\end{figure}
+Figure \ref{stakeholdermap} gives an overview of potential stakeholders. As can be seen in this figure, there are four groups of users: patients, doctors, the IT appartment of the hospital and the 
+
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{images/stakeholdermap.jpg}
+%	\caption{Stakeholder Map which shows all groups of stakeholders as well as their relationships}
+%	\label{stakeholdermap}
+%\end{figure}
 
 \subsection{Empathy Map}
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{images/empathymap_radiologist.jpg}
-	\caption{Empathy Map of radiologist
-	\label{verticallatter}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{images/empathymap_patient.jpg}
-	\caption{Empathy Map of patient}
-	\label{verticallatter}
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{images/empathymap_cfo.jpg}
-	\caption{Empathy Map of \ac{cfo} of hospital}
-	\label{verticallatter}
-\end{figure}
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{images/empathymap_radiologist.jpg}
+%	\caption{Empathy Map of radiologist
+%	\label{verticallatter}
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{images/empathymap_patient.jpg}
+%	\caption{Empathy Map of patient}
+%	\label{verticallatter}
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{images/empathymap_cfo.jpg}
+%	\caption{Empathy Map of \ac{cfo} of hospital}
+%	\label{verticallatter}
+%\end{figure}
 
 
 \subsection{Hills}
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{images/hills.jpg}
-	\caption{"How might we?" - table to define the process of development}
-	\label{verticallatter}
-\end{figure}
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{images/hills.jpg}
+%	\caption{"How might we?" - table to define the process of development}
+%	\label{verticallatter}
+%\end{figure}
 
 \subsection{User Journey}
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{images/userjourney.jpg}
-	\caption{User Journey which describes the interaction of key users and app}
-	\label{verticallatter}
-\end{figure}
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{images/userjourney.jpg}
+%	\caption{User Journey which describes the interaction of key users and app}
+%	\label{verticallatter}
+%\end{figure}
 
 \section{User Research}
 \subsection{User interviews}
@@ -235,6 +233,9 @@ In the given figure, a vertical letter shows the initially planned goals and fea
 
 
 \section{Development of system to predict metastasis and recidives} 
+
+\subsection{Challenges of development}
+Concerning the detection of skin moles are tattoos, skin lesions and tone of skin. In a first approach, these were not considered. But for future development, the usage of Lidar sensor could be a solution. Since Lidar detects the 3D model of an object by calculating the distance from the detecting camera to the patient's skin, some special moles can be distinguished. 
 
 \section{Data Research}
 \subsection{Kaggle dataset}
@@ -250,12 +251,12 @@ Figure XY gives an impression of a simple U-Net.
 'Each blue box corresponds to a multi-channel feature map. The number of channels is denoted on top of the box. The x-y-size is provided at the lower left edge of the box. White boxes represent copied feature maps. The arrows denote the different operations.'\footnote{\cite{unet}}
 One of the advantages is that during the first step (going right and downwards), objects are detected and in the second step (going right and upwards) the precise localization of the objects is calculated. 
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{images/u-net-architecture.png}
-	\caption{U-Net architecture (example for 32x32 pixels in the lowest resolution),\footnote{\cite{unet}}}\footnote{\cite{unet}}
-	\label{unet}
-\end{figure}
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{images/u-net-architecture.png}
+%	\caption{U-Net architecture (example for 32x32 pixels in the lowest resolution),\footnote{\cite{unet}}}\footnote{\cite{unet}}
+%	\label{unet}
+%\end{figure}
 
 According to Ronneberger et al.\footnote{\cite{unet_freiburg}}, U-Net learns segmentation in an end-to-end setting. Furthermore, very few annotated images (approximately 30 per application) are needed. Touching objects of the same class.
 
