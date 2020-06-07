@@ -176,6 +176,27 @@
       \verb https://www.ibm.com/design/thinking/page/toolkit
       \endverb
     \endentry
+    \entry{dkgs_tumor_classification}{misc}{}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{Klassifikation von {Tumoren} - {Deutsche} {Krebsgesellschaft}}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Klassifikation von Tumoren - Deutsche Krebsgesellschaft:/Users/jf/Zotero/storage/VTS9LPH5/klassifikation-von-tumoren-tnm-.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.krebsgesellschaft.de/onko-internetportal/basis-informationen-krebs/basis-informationen-krebs-allgemeine-informationen/klassifikation-von-tumoren-tnm-.html
+      \endverb
+      \verb{url}
+      \verb https://www.krebsgesellschaft.de/onko-internetportal/basis-informationen-krebs/basis-informationen-krebs-allgemeine-informationen/klassifikation-von-tumoren-tnm-.html
+      \endverb
+    \endentry
     \entry{vijini_gen_alg}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=ed043f3a591ca9b439857674faba373d}{%
@@ -254,6 +275,54 @@
       \field{pages}{176\bibrangedash 186}
       \range{pages}{11}
     \endentry
+    \entry{nativescript}{misc}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{title}{{NativeScript} {Documentation}}
+      \field{urlday}{7}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb NativeScript Documentation:/Users/jf/Zotero/storage/SAWNBPCU/docs.nativescript.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.nativescript.org/
+      \endverb
+      \verb{url}
+      \verb https://docs.nativescript.org/
+      \endverb
+    \endentry
+    \entry{nsmarket}{online}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Discover high quality plugins, templates and tools for your {NativeScript} app}
+      \field{day}{10}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{{NativeScript} Marketplace}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/158/market.nativescript.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://market.nativescript.org/
+      \endverb
+      \verb{url}
+      \verb https://market.nativescript.org/
+      \endverb
+    \endentry
     \entry{ndr_lymphom}{misc}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=30c6dd2394c54c684272a4dfe785a20a}{%
@@ -290,6 +359,31 @@
       \endverb
       \verb{url}
       \verb /ratgeber/gesundheit/Lymphom-Wenn-Tumore-die-Haut-zerstoeren,lymphom102.html
+      \endverb
+    \endentry
+    \entry{nsplayground}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{5}
+      \field{title}{Play and Try {NativeScript} on Your Device – \{N\} Playground}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Play and Try NativeScript on Your Device – \{N\} Playground:files/156/play.nativescript.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://play.nativescript.org/
+      \endverb
+      \verb{url}
+      \verb https://play.nativescript.org/
       \endverb
     \endentry
     \entry{unet_freiburg}{inproceedings}{}
@@ -405,7 +499,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{booktitle}{Medical {Image} {Computing} and {Computer}-{Assisted} {Intervention} – {MICCAI} 2015}
-      \field{isbn}{978-3-319-24573-7 978-3-319-24574-4}
+      \field{isbn}{978-3-319-24573-7}
       \field{note}{Series Title: Lecture Notes in Computer Science}
       \field{shorttitle}{U-{Net}}
       \field{title}{U-{Net}: {Convolutional} {Networks} for {Biomedical} {Image} {Segmentation}}

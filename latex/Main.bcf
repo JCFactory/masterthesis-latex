@@ -2004,16 +2004,25 @@
     <bcf:citekey order="6">skin_cancer_types</bcf:citekey>
     <bcf:citekey order="7">ndr_lymphom</bcf:citekey>
     <bcf:citekey order="8">ndr_lymphom</bcf:citekey>
-    <bcf:citekey order="9">skin_cancer_types</bcf:citekey>
-    <bcf:citekey order="10">iarc_predict_cancer_worldwide</bcf:citekey>
-    <bcf:citekey order="11">vijini_gen_alg</bcf:citekey>
-    <bcf:citekey order="12">ibm_edt</bcf:citekey>
-    <bcf:citekey order="13">design_kit</bcf:citekey>
-    <bcf:citekey order="14">czichos_introduction_2018</bcf:citekey>
-    <bcf:citekey order="15">kaggle_dataset</bcf:citekey>
-    <bcf:citekey order="16">unet</bcf:citekey>
-    <bcf:citekey order="17">unet</bcf:citekey>
-    <bcf:citekey order="18">unet_freiburg</bcf:citekey>
+    <bcf:citekey order="9">dkgs_tumor_classification</bcf:citekey>
+    <bcf:citekey order="10">skin_cancer_types</bcf:citekey>
+    <bcf:citekey order="11">iarc_predict_cancer_worldwide</bcf:citekey>
+    <bcf:citekey order="12">vijini_gen_alg</bcf:citekey>
+    <bcf:citekey order="13">nativescript</bcf:citekey>
+    <bcf:citekey order="14">nativescript</bcf:citekey>
+    <bcf:citekey order="15">nativescript</bcf:citekey>
+    <bcf:citekey order="16">nsplayground</bcf:citekey>
+    <bcf:citekey order="17">nativescript</bcf:citekey>
+    <bcf:citekey order="18">nativescript</bcf:citekey>
+    <bcf:citekey order="19">nsmarket</bcf:citekey>
+    <bcf:citekey order="20">ibm_edt</bcf:citekey>
+    <bcf:citekey order="21">design_kit</bcf:citekey>
+    <bcf:citekey order="22">ibm_edt</bcf:citekey>
+    <bcf:citekey order="23">czichos_introduction_2018</bcf:citekey>
+    <bcf:citekey order="24">kaggle_dataset</bcf:citekey>
+    <bcf:citekey order="25">unet</bcf:citekey>
+    <bcf:citekey order="26">unet</bcf:citekey>
+    <bcf:citekey order="27">unet_freiburg</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
