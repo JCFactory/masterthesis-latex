@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  7 JUN 2020 19:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.12.17)  7 JUN 2020 19:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2530,13 +2530,9 @@ Overfull \hbox (3.08769pt too wide) in paragraph at lines 42--42
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[2]
-Overfull \vbox (1.26591pt too high) has occurred while \output is active []
-
-
-[3] (./Main.lof
+[2] (./Main.lof
 Package acronym Info: Label `acro:cfo' newly defined as it shall be overridden
-although it is yet undefined on input line 15.
+although it is yet undefined on input line 14.
 )
 \tf@lof=\write7
 \openout7 = `Main.lof'.
@@ -2655,7 +2651,7 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 [10
 
 ]
-<images/ns-architecture.png, id=315, 916.42375pt x 627.34375pt>
+<images/ns-architecture.png, id=311, 916.42375pt x 627.34375pt>
 File: images/ns-architecture.png Graphic file (type png)
 <use images/ns-architecture.png>
 Package pdftex.def Info: images/ns-architecture.png  used on input line 162.
@@ -2669,7 +2665,7 @@ LaTeX Font Warning: Font shape `OMS/txss/m/it' undefined
 (Font)              using `OMS/txsy/m/n' instead
 (Font)              for symbol `textbraceleft' on input line 167.
 
-<images/mvvm_ns.png, id=320, 474.77374pt x 290.08376pt>
+<images/mvvm_ns.png, id=316, 474.77374pt x 290.08376pt>
 File: images/mvvm_ns.png Graphic file (type png)
 <use images/mvvm_ns.png>
 Package pdftex.def Info: images/mvvm_ns.png  used on input line 173.
@@ -2691,20 +2687,16 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
 [12 <./images/mvvm_ns.png>]
-Overfull \vbox (1.26591pt too high) has occurred while \output is active []
-
-
-[13]
-chapter 5.
-<images/verticallatter.jpg, id=367, 4047.12pt x 3035.34pt>
+<images/verticallatter.jpg, id=357, 4047.12pt x 3035.34pt>
 File: images/verticallatter.jpg Graphic file (type jpg)
 <use images/verticallatter.jpg>
 Package pdftex.def Info: images/verticallatter.jpg  used on input line 202.
 (pdftex.def)             Requested size: 426.79141pt x 320.08641pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/howmightwe.jpg, id=368, 4047.12pt x 3035.34pt>
+<images/howmightwe.jpg, id=358, 4047.12pt x 3035.34pt>
 File: images/howmightwe.jpg Graphic file (type jpg)
 <use images/howmightwe.jpg>
 Package pdftex.def Info: images/howmightwe.jpg  used on input line 211.
@@ -2712,7 +2704,7 @@ Package pdftex.def Info: images/howmightwe.jpg  used on input line 211.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/stakeholdermap.jpg, id=370, 4047.12pt x 3035.34pt>
+<images/stakeholdermap.jpg, id=360, 4047.12pt x 3035.34pt>
 File: images/stakeholdermap.jpg Graphic file (type jpg)
 <use images/stakeholdermap.jpg>
 Package pdftex.def Info: images/stakeholdermap.jpg  used on input line 222.
@@ -2724,10 +2716,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[14
-
-]
-<images/empathymap_radiologist.jpg, id=382, 4047.12pt x 3035.34pt>
+[13]
+<images/empathymap_radiologist.jpg, id=374, 4047.12pt x 3035.34pt>
 File: images/empathymap_radiologist.jpg Graphic file (type jpg)
 <use images/empathymap_radiologist.jpg>
 Package pdftex.def Info: images/empathymap_radiologist.jpg  used on input line 
@@ -2737,7 +2727,7 @@ Package pdftex.def Info: images/empathymap_radiologist.jpg  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/empathymap_patient.jpg, id=383, 4047.12pt x 3035.34pt>
+<images/empathymap_patient.jpg, id=375, 4047.12pt x 3035.34pt>
 File: images/empathymap_patient.jpg Graphic file (type jpg)
 <use images/empathymap_patient.jpg>
 Package pdftex.def Info: images/empathymap_patient.jpg  used on input line 240.
@@ -2746,7 +2736,7 @@ Package pdftex.def Info: images/empathymap_patient.jpg  used on input line 240.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/empathymap_cfo.jpg, id=384, 4047.12pt x 3035.34pt>
+<images/empathymap_cfo.jpg, id=376, 4047.12pt x 3035.34pt>
 File: images/empathymap_cfo.jpg Graphic file (type jpg)
 <use images/empathymap_cfo.jpg>
 Package pdftex.def Info: images/empathymap_cfo.jpg  used on input line 247.
@@ -2758,8 +2748,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[15 <./images/verticallatter.jpg>]
-<images/hills.jpg, id=397, 4047.12pt x 3035.34pt>
+[14 <./images/verticallatter.jpg>]
+<images/hills.jpg, id=388, 4047.12pt x 3035.34pt>
 File: images/hills.jpg Graphic file (type jpg)
 <use images/hills.jpg>
 Package pdftex.def Info: images/hills.jpg  used on input line 261.
@@ -2768,7 +2758,7 @@ Package pdftex.def Info: images/hills.jpg  used on input line 261.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/userjourney.jpg, id=398, 4047.12pt x 3035.34pt>
+<images/userjourney.jpg, id=389, 4047.12pt x 3035.34pt>
 File: images/userjourney.jpg Graphic file (type jpg)
 <use images/userjourney.jpg>
 Package pdftex.def Info: images/userjourney.jpg  used on input line 270.
@@ -2780,16 +2770,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[16 <./images/howmightwe.jpg>]
+[15 <./images/howmightwe.jpg>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[17 <./images/stakeholdermap.jpg>]
+[16 <./images/stakeholdermap.jpg>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[18 <./images/empathymap_radiologist.jpg>]
-<images/u-net-architecture.png, id=428, 1560.83125pt x 1039.885pt>
+[17 <./images/empathymap_radiologist.jpg>]
+<images/u-net-architecture.png, id=420, 1560.83125pt x 1039.885pt>
 File: images/u-net-architecture.png Graphic file (type png)
 <use images/u-net-architecture.png>
 Package pdftex.def Info: images/u-net-architecture.png  used on input line 302.
@@ -2803,19 +2793,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[19 <./images/empathymap_patient.jpg>]
+[18 <./images/empathymap_patient.jpg>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[20 <./images/empathymap_cfo.jpg>]
+[19 <./images/empathymap_cfo.jpg>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[21 <./images/hills.jpg> <./images/userjourney.jpg>]
+[20 <./images/hills.jpg> <./images/userjourney.jpg>]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[22 <./images/u-net-architecture.png>]
+[21 <./images/u-net-architecture.png>]
+chapter 5.
+
+Overfull \vbox (1.26591pt too high) has occurred while \output is active []
+
+
+[22
+
+]
 chapter 6.
 
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
@@ -2825,19 +2823,11 @@ Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 ]
 chapter 7.
-
-Overfull \vbox (1.26591pt too high) has occurred while \output is active []
-
-
-[24
-
-]
-chapter 8.
 (./Abkuerzung.tex)
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[25
+[24
 
 ]
 chapter without number
@@ -2864,7 +2854,7 @@ Overfull \hbox (15.85764pt too wide) in paragraph at lines 324--324
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[26
+[25
 
 ]
 Overfull \hbox (26.09221pt too wide) in paragraph at lines 324--324
@@ -2896,12 +2886,12 @@ s : / / www . cancercenter .
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[27]
+[26]
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[28]
-chapter 9.
+[27]
+chapter 8.
 (./Anhang.tex
 Overfull \hbox (34.02832pt too wide) in paragraph at lines 6--7
 \OT1/txss/m/n/12 dass die Ar-beit in gle-icher oder []ahn-licher Form noch kein
@@ -2922,7 +2912,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 Overfull \vbox (1.26591pt too high) has occurred while \output is active []
 
 
-[29
+[28
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
@@ -2945,13 +2935,13 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
  ) 
 Here is how much of TeX's memory you used:
- 48071 strings out of 492616
- 908309 string characters out of 6129480
- 1486970 words of memory out of 5000000
+ 48069 strings out of 492616
+ 908301 string characters out of 6129480
+ 1485972 words of memory out of 5000000
  51104 multiletter control sequences out of 15000+600000
  578889 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,11n,89p,9100b,3465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,11n,89p,9100b,3473s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/txfonts/rtxsssc.pfb></usr/local/texli
 ve/2019/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2019
@@ -2960,10 +2950,10 @@ dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
 e1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb>
-Output written on Main.pdf (33 pages, 18135527 bytes).
+Output written on Main.pdf (31 pages, 18126651 bytes).
 PDF statistics:
- 745 PDF objects out of 1000 (max. 8388607)
- 682 compressed objects within 7 object streams
- 175 named destinations out of 1000 (max. 500000)
+ 736 PDF objects out of 1000 (max. 8388607)
+ 675 compressed objects within 7 object streams
+ 173 named destinations out of 1000 (max. 500000)
  484 words of extra memory for PDF output out of 10000 (max. 10000000)
 
