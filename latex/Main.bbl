@@ -386,6 +386,89 @@
       \verb https://play.nativescript.org/
       \endverb
     \endentry
+    \entry{glioblastom_mri}{article}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,uniquepart=base,hash=a4003e14f1c1149502dabbb0be7ed468}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Annapareddy\bibnamedelimb V.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=94198a4cff2b248e45afa92beaed6af6}{%
+           family={Krishna},
+           familyi={K\bibinitperiod},
+           given={Ch.\bibnamedelimi Phani},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4e004ba4697fe72e30058aab310da85d}{%
+           family={Mallick},
+           familyi={M\bibinitperiod},
+           given={Pradeep\bibnamedelima Kumar},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8e466f389dc5e1afd386ce4ad75cc55b}{%
+           family={Satapathy},
+           familyi={S\bibinitperiod},
+           given={Sandeep\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=ee3f2f07708626f3b215518c4fd2a9ca}{%
+           family={Tiwari},
+           familyi={T\bibinitperiod},
+           given={Prayag},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7ddbb1a66420e042604c766c4142c5e1}{%
+           family={Zymbler},
+           familyi={Z\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3222537973f54c5e7fa94b7d8723d1c8}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Sachin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{68b3767f1223b15fd24fe8ff4879bdbb}
+      \strng{fullhash}{7819e0082b58bd7f6d386b6e79d929ff}
+      \strng{bibnamehash}{68b3767f1223b15fd24fe8ff4879bdbb}
+      \strng{authorbibnamehash}{68b3767f1223b15fd24fe8ff4879bdbb}
+      \strng{authornamehash}{68b3767f1223b15fd24fe8ff4879bdbb}
+      \strng{authorfullhash}{7819e0082b58bd7f6d386b6e79d929ff}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2196-1115}
+      \field{journaltitle}{Journal of Big Data}
+      \field{month}{6}
+      \field{number}{1}
+      \field{title}{Analyzing {MRI} scans to detect glioblastoma tumor using hybrid deep belief networks}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{volume}{7}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{35}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s40537-020-00311-y
+      \endverb
+      \verb{file}
+      \verb Snapshot:/Users/jf/Zotero/storage/WSLN3GYX/s40537-020-00311-y.html:text/html;Volltext:/Users/jf/Zotero/storage/7EX3MNPB/Reddy et al. - 2020 - Analyzing MRI scans to detect glioblastoma tumor u.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s40537-020-00311-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s40537-020-00311-y
+      \endverb
+    \endentry
     \entry{unet_freiburg}{inproceedings}{}
       \name{author}{3}{}{%
         {{uniquename=2,uniquepart=given,hash=c2394148bf52ac7983b45592c0d97619}{%
