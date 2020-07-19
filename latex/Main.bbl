@@ -19,6 +19,90 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{3d-scanning}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,uniquepart=base,hash=22916c624a6001baf20b14c29c750727}{%
+           family={Ares},
+           familyi={A\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e2eeca9808142b715019bc527dcd9f96}{%
+           family={Royo},
+           familyi={R\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=54fdcd5232b64484ec9a6a8801119e46}{%
+           family={Vilaseca},
+           familyi={V\bibinitperiod},
+           given={Meritxell},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=61e397471c51615c7bb0df44b074de30}{%
+           family={Herrera},
+           familyi={H\bibinitperiod},
+           given={Jorge\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d46cfbae84f8710ba26a1c65665f4b00}{%
+           family={Delpueyo},
+           familyi={D\bibinitperiod},
+           given={Xana},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e5c2ead30dba0362f79e12e03865b038}{%
+           family={Sanabria},
+           familyi={S\bibinitperiod},
+           given={Ferran},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Lugano, Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {Hometrica Consulting - Dr. Nicola D'Apuzzo}%
+      }
+      \strng{namehash}{67cdb880a9a546eea670ce636b7fc069}
+      \strng{fullhash}{207ac34e736900729f72a9eb9aa2e3ed}
+      \strng{bibnamehash}{67cdb880a9a546eea670ce636b7fc069}
+      \strng{authorbibnamehash}{67cdb880a9a546eea670ce636b7fc069}
+      \strng{authornamehash}{67cdb880a9a546eea670ce636b7fc069}
+      \strng{authorfullhash}{207ac34e736900729f72a9eb9aa2e3ed}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 5th {International} {Conference} on {3D} {Body} {Scanning} {Technologies}, {Lugano}, {Switzerland}, 21-22 {October} 2014}
+      \field{isbn}{978-3-033-04763-1}
+      \field{month}{10}
+      \field{title}{Handheld {3D} {Scanning} {System} for {In}-{Vivo} {Imaging} of {Skin} {Cancer}}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{231\bibrangedash 236}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.15221/14.231
+      \endverb
+      \verb{file}
+      \verb Ares et al. - 2014 - Handheld 3D Scanning System for In-Vivo Imaging of.pdf:/Users/jf/Zotero/storage/5HY7JWSX/Ares et al. - 2014 - Handheld 3D Scanning System for In-Vivo Imaging of.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.3dbody.tech/cap/abstracts/2014/231ares.html
+      \endverb
+      \verb{url}
+      \verb https://www.3dbody.tech/cap/abstracts/2014/231ares.html
+      \endverb
+    \endentry
     \entry{iarc_predict_cancer_worldwide}{misc}{}
       \list{language}{1}{%
         {en}%
@@ -195,6 +279,32 @@
       \endverb
       \verb{url}
       \verb https://www.krebsgesellschaft.de/onko-internetportal/basis-informationen-krebs/basis-informationen-krebs-allgemeine-informationen/klassifikation-von-tumoren-tnm-.html
+      \endverb
+    \endentry
+    \entry{skin_lymphoma}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lymphoma is a cancer that starts in cells that are part of the body's immune system. Rare lymphomas that start in the skin are called skin lymphomas (or cutaneous lymphomas).}
+      \field{note}{Library Catalog: www.cancer.org}
+      \field{title}{Lymphoma of the {Skin}}
+      \field{urlday}{12}
+      \field{urlmonth}{6}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/Users/jf/Zotero/storage/GHP2ENZI/skin-lymphoma.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cancer.org/cancer/skin-lymphoma.html
+      \endverb
+      \verb{url}
+      \verb https://www.cancer.org/cancer/skin-lymphoma.html
       \endverb
     \endentry
     \entry{vijini_gen_alg}{misc}{}
