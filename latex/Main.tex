@@ -1,17 +1,24 @@
 \input{preamble}
 
 \begin{document}
-%\input{Titelseite}
+\input{Titelseite}
 \chapter{Abstract}\label{abstract}
 
+This thesis tackles the problem of automated detection of inconsistencies in evolving knowledge graphs, which arise from periodic updates that affect graph elements connected to unchanged elements.
+The proposed inconsistency detection approach is developed based on the analysis of a knowledge graph from the medical coding domain which is subject to annual updates. To assess the effectiveness and efficiency of the approach, two experiments based on real- world and synthetically generated data are conducted. Three graph versioning approaches are taken into consideration for the analysis of their impact on the effectiveness and efficiency of the inconsistency detection approach. The experimental results showed that inconsistency detection can be automated by analyzing subgraphs, containing elements whose change constitutes an inconsistency source, with respect to the alteration of its elements by a periodic update. The effectiveness and efficiency of the approach depend on the graph versioning approach, the primary change type (deletion, addition, or update) and the number of inconsistency-causing changes.
+This work provides an approach that facilitates targeted graph corrections and incremental updates instead of graph reconstructions by enabling cross-state graph verification without the need for a large graph-underlying data set.
+
 only documentation of blood pressure values, not measurement (current hardware of smartphone not able)
+
 - how can diagrams be displayed on smartphones? --> only show a certain part of data
 
+\chapter{Abbreviations}
+\input{Abkuerzung}
+
+% 01 introduction
 \chapter{Introduction}\label{introduction}
 
 \section{Problem statement}
-
-
 \section{Aim and scope of this work}
 
 %describe aim
@@ -19,94 +26,36 @@ The first aim of this scientific work is to develop a solution ...
 %describe scope
 What is important, the developed model is only a reference model....
 
-\chapter{Fundamentals}\label{fundamentals}
 
-\section{Related Work}
+% 02 related work
+\chapter{Related Work}\label{relatedwork}
+
 
 example architecture
 
 Deep learning methods use multiple layers of nonlinear processing units for feature extraction and transformation and to find deep relationships between complex variations under supervised and unsupervised procedures.
 
-\subsection{\ac{iarc}}
 
-The \ac{iarc} is a association with the aim to raise the development within cancer treatment and research. It was formed by the \ac{who} and has its main location in France. Besides, it provides a large library of cancerogens for users.
-
-
-
-\section{Analysis and Development}
-
-\subsection{Design Thinking Methods}
+% 03 theoretical background
+\chapter{Theoretical Background for Problem Context}\label{background}
+\section{\ac{crisp-dm}: Standard Process for Data Mining projects}
 
 
-
-\subsection{Vertical latter}
-
-In the given figure, a vertical letter shows the initially planned goals and features of the app. The X-Axis shows the time steps whereas the Y-Axis explains the complexity of tasks. The higher on task is mentioned, the more complex it is to realize.
+% 04 development 
+\chapter{Development of an architectural design to analyze data sources from healthcare providers}
 
 
+% 05 experimental evaluation
+\chapter{Experimental evaluation of architectural design}
 
-\subsection{How might we?}
+% 06 Discussion
+\chapter{Discussion}
 
-
-\subsection{Stakeholder Map}
-
-Figure gives an overview of potential stakeholders. As can be seen in this figure, there are four groups of users: patients, doctors, the IT appartment of the hospital and the 
+% 07 Conclusion
+\chapter{Conclusion}
 
 
 
-\subsection{Empathy Map}
-
-In this section, three primary developed persona were developed. They should represent each of them a specific user of the user groups. Figures  give an overview of what each persona feels and thinks about the treatment process of cancer, especially skin cancer. Moreover, the empathy maps were developed before asking affected patients and might differ from real opinions. But during the first step of this project this method serves well to specify the business case. 
-
-
-
-
-\subsection{Hills}
-
-The design thinking method "hills" is a special method to prioritize the real needs of users and to set special goals that differ the solution from existing apps. The second fact is really important for development. As this method answers the three questions 'WHO', 'WHAT' and 'HOW', the focus is on the most important feature which shall be realized. In further planning, this feature can be divided into multiple 'todos'  during development process. This raises the practicability of the product and accelerates the development. Figure shows the developed hills which explain two different point of views: On the one hand, patient's view and on the otherhand, the doctor's view.
-To give an example, one hill is expressed as: 'As a patient, i would like to have a reliable, real-time and easy-to-understand diagnose about my type of skin cancer.'
-Another hill is: 'As a doctor, i would like the application to outline potential skin tumors and to calculate the  approximate amount of medication and how it has to be administered. Furthermore, there should be a check whether the medication is available at the hospital's pharmacy or not. If the medication is not available, it should be ordered immediately and delivered to the patient.
-
-
-\subsection{User Journey}
-
-
-
-\section{User Research}
-\subsection{User interviews}
-\subsection{What is important? - Relevant features}
-\subsection{How can processes be improved?}
-
-
-\section{Development of system to predict metastasis and recidives} 
-
-\subsection{Challenges of development}
-
-
-\subsection{Data Research}
-\paragraph{Kaggle dataset}
-
-
-\subsection{\ac{crisp-dm}: Model Planning and Learning}
-
-\subsection{U-net architecture to for medical imaging}
-
-
-
-\subsection{Testing}
-\subsection{Results} 
-
-\chapter{Results}
-\section{Validation of results}
-\section{Limitation in the development process}
-
-\chapter{Conclusion and Outlook}
-\section{Conclusion}
-\section{Outlook}
-
-
-\chapter{Abbreviations}
-\input{Abkuerzung}
 
 \printbibliography[heading=bibintoc]
 
